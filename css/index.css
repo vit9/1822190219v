@@ -22,6 +22,10 @@ button:focus {
 .profile__img{
     z-index: 1;
 }
+.profile__img img{
+    height: 125px;
+}
+   
 .profile__info{
     width: 100%;
 }
