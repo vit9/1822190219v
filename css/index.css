@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button, 
+button:active, 
+button:focus {
+    outline: none;
+}
+
+.main{
+    width: 100%;
+    min-width: 360px;
+    max-width: 720px;
+    margin: 0 auto;
+}
+.profile{
+    display: flex;
+    width: 100%;
+}
+.profile__img{
+    z-index: 1;
+}
+.profile__info{
+    width: 100%;
+}
+.profile__name{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0 0 0;
+}
+.profile__manager{
+    
+    padding-bottom: 5px;
+    font-size: 14px;
+    color: #808080;
+}
+.profile__offer{
+    width: 100%;
+    border:  1px solid #cecabf;
+    background-color: #fffbc8;
+    border-radius: 0 10px 10px 0;
+    position: relative;
+    right: 7%;
+}
+.profile__offer p{
+
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 60px;
+}
+.service{
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    padding-bottom: 5px;
+    width: 84%;
+}
+.services{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 25%;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    width: 69%;
+}
+.servises__nameOfServices{
+    padding-top: 15px;
+    padding-right: 8%;
+    padding-bottom: 15px;
+    
+}
+.servises__nameOfServices__booking{
+    width: 180px;
+    border-radius: 0 5px 5px 0;
+    font: 16px sans-serif;
+  background-color: #b1e19b;
+  text-align: left;
+  padding: 3px;
+  margin: 1px;
+  color: black;
+}
+.servises__nameOfServices__toors{
+    border-radius: 0 5px 5px 0;
+    width: 120px;
+    font: 16px sans-serif;
+  background-color: #ace2f8;
+  text-align: left;
+  padding: 3px;
+  margin: 1px;
+  color: black;
+}
+.servises__nameOfServices_hotels{
+    border-radius: 0 5px 5px 0;
+    width: 50px;
+    font: 16px sans-serif;
+  background-color: #ace2f8;
+  text-align: left;
+  padding: 3px;
+  margin: 1px;
+  color: black;
+}
+.servises__numberOfServices{
+    text-align: right;
+    margin-left: 35%;
+    margin-right: 17%;
+}
+.numberOfServices__eleven{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.numberOfServices__three{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.numberOfServices__one{
+    margin-top: 7px;
+}
+.result{
+    text-align: right;
+    width: 83%;
+    margin-top: 10px;
+}
+.result__all{
+    margin-left: 60%;
+}
+#last{
+    width: 87%;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+#last div .lastCommentary{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.reviews__a{
+    margin-left: 1em;
+}
+.comment{
+    width: 95%;
+}
+.comment div p span{
+    font-size: 14px;
+    color: #808080;
+    margin-left: 2%;
+}
+.comment div p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.comment__text {
+    min-height: 28px;
+    margin-bottom: 10px;
+    width: 100%;
+    position: relative;
+        padding: 20px;
+        border: 1px solid #cfcfcf;
+        display: inline-block;
+        background: #f2fbff;
+        font: 20px/1.4em Airal;
+}
+.comment__text::after{
+    content: '';
+    border: 10px solid transparent;	
+border-bottom: 10px solid  #f2fbff; 
+border-left: 10px solid  #f2fbff;
+
+    position: absolute;
+    left: 10px;
+bottom: 57px;
+}
+
+
+.text1::after{
+    bottom: 114px;
+}
+.text2::after{
+    bottom: 86px;
+}
+.commentary{
+    width: 95%;
+    padding-right: 5%;
+    background-color: #f2f2f2;
+    margin-top: 10px;
+    padding-top: 30px;
+}
+.commentary div{
+    margin-left: 5%;
+}
+
+.newComment{
+    width: 100%;
+    height: 100px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    border-bottom-width: 30px;
+    padding-bottom: 30px;
+
+}
+.button__addNewComment{
+    border-radius: 30px;
+    padding: 17px 60px 17px 60px;
+    border: 0px;
+    background-color: #fdd639;
+    font-size: 20px;
+    font-weight: 600;
+    outline: 0;
+}
+.profile__img img{
+    shape-outside: circle(farthest-side at 25% 25%);
+    shape-margin: 15px;
+}
+.p{
+    margin-bottom: 20px;
+}
