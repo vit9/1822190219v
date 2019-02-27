@@ -30,31 +30,35 @@ button:focus {
     width: 100%;
 }
 .profile__name{
-    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
     font-weight: 600;
-    margin: 10px 0 0 0;
+    margin: 10px 0 5px 0;
+    text-align: end;
+    width: 175px;
 }
 .profile__manager{
-    
     padding-bottom: 5px;
     font-size: 14px;
     color: #808080;
+    text-align: end;
+    width: 158px;
 }
 .profile__offer{
     width: 100%;
     border:  1px solid #cecabf;
     background-color: #fffbc8;
     border-radius: 0 10px 10px 0;
+    
     position: relative;
-    right: 7%;
+    right: 6%;
 }
 .profile__offer p{
-
-    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
     margin-top: 10px;
-    margin-bottom: 10px;
-    padding-right: 10px;
-    padding-left: 60px;
+    margin-bottom: 5px;
+    padding-left: 35px;
 }
 .service{
     display: flex;
@@ -67,20 +71,22 @@ button:focus {
     display: flex;
     justify-content: flex-end;
     margin-left: 25%;
-    border-top: 1px solid #cccccc;
-    border-bottom: 1px solid #cccccc;
+    border-top: 0.5px solid #cccccc;
+    border-bottom: 0.5px solid #cccccc;
     width: 69%;
 }
 .servises__nameOfServices{
+    border-top: 0.5px solid #cccccc;
+    border-bottom: 0.5px solid #cccccc;
     padding-top: 15px;
     padding-right: 8%;
     padding-bottom: 15px;
     
 }
 .servises__nameOfServices__booking{
-    width: 180px;
+    width: 150px;
     border-radius: 0 5px 5px 0;
-    font: 16px sans-serif;
+    font: 13px sans-serif;
   background-color: #b1e19b;
   text-align: left;
   padding: 3px;
@@ -89,8 +95,8 @@ button:focus {
 }
 .servises__nameOfServices__toors{
     border-radius: 0 5px 5px 0;
-    width: 120px;
-    font: 16px sans-serif;
+    width: 100px;
+    font: 13px sans-serif;
   background-color: #ace2f8;
   text-align: left;
   padding: 3px;
@@ -99,8 +105,8 @@ button:focus {
 }
 .servises__nameOfServices_hotels{
     border-radius: 0 5px 5px 0;
-    width: 50px;
-    font: 16px sans-serif;
+    width: 30px;
+    font: 13px sans-serif;
   background-color: #ace2f8;
   text-align: left;
   padding: 3px;
@@ -108,22 +114,23 @@ button:focus {
   color: black;
 }
 .servises__numberOfServices{
+    font-weight: 600;
     text-align: right;
-    margin-left: 35%;
+    margin-left: 41%;
     margin-right: 17%;
 }
 .numberOfServices__eleven{
-    margin-top: 20px;
+    margin-top: 15px;
     margin-bottom: 10px;
 }
 .numberOfServices__three{
-    margin-top: 7px;
-    margin-bottom: 7px;
+    
 }
 .numberOfServices__one{
     margin-top: 7px;
 }
 .result{
+    font-weight: 600;
     text-align: right;
     width: 83%;
     margin-top: 10px;
@@ -139,36 +146,46 @@ button:focus {
     margin-bottom: 20px; 
 }
 #last div .lastCommentary{
-    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
     font-weight: 600;
 }
 
 .reviews__a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
     margin-left: 1em;
 }
 .comment{
     width: 95%;
 }
+.comment div div{
+    height: 100px;
+}
 .comment div p span{
-    font-size: 14px;
+    font-size: 11px;
     color: #808080;
     margin-left: 2%;
 }
 .comment div p {
-    margin-bottom: 20px;
-    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin-bottom: 15px;
     font-weight: 600;
 }
 .comment__text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
     min-height: 28px;
     margin-bottom: 10px;
     width: 100%;
+    height: 100px;
     position: relative;
-        padding: 20px;
-        border: 1px solid #cfcfcf;
-        display: inline-block;
-        background: #f2fbff;
-        font: 20px/1.4em Airal;
+    padding: 10px 30px 10px 30px;
+    border: 1px solid #cfcfcf;
+    display: inline-block;
+    background: #f2fbff;
+    
 }
 .comment__text::after{
     content: '';
@@ -178,16 +195,11 @@ border-left: 10px solid  #f2fbff;
 
     position: absolute;
     left: 10px;
-bottom: 57px;
+    bottom: 87px;
 }
 
 
-.text1::after{
-    bottom: 114px;
-}
-.text2::after{
-    bottom: 86px;
-}
+
 .commentary{
     width: 95%;
     padding-right: 5%;
@@ -226,4 +238,43 @@ bottom: 57px;
 }
 .p{
     margin-bottom: 20px;
+}
+@media (max-width: 667px) { 
+   
+    .profile__offer {
+        position: relative;
+        right: 8%;
+    }
+    .result__all{
+        margin-left: 66%;
+    }
+}
+@media (max-width: 494px) { 
+    .profile__img img{
+        width: 150px;
+        height:150px;
+    }
+    .result__all{
+        margin-left: 70%;
+    }
+    .profile__offer p{
+        font-size: 12px;
+    }
+    .profile__offer {
+        position: relative;
+        right: 9%;
+    }
+}
+@media (max-width: 403px) { 
+    .result__all{
+        margin-left: 78%;
+    }
+    .profile__img img{
+        width: 165px;
+        height:165px;
+    }
+    .profile__offer {
+        position: relative;
+        right: 14%;
+    }
 }
